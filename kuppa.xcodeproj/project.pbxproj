@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F8455B2110910CA4C5E128 /* Pods_kuppa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FACD2A13ACB72D9B76D125 /* Pods_kuppa.framework */; };
+		953F351B28BF605100CC9F49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953F351A28BF605000CC9F49 /* HomeViewController.swift */; };
+		953F351D28BF6FAA00CC9F49 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953F351C28BF6FAA00CC9F49 /* CodeViewController.swift */; };
+		953F351F28BF75FC00CC9F49 /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953F351E28BF75FB00CC9F49 /* CongratsViewController.swift */; };
+		953F352128BF7D7700CC9F49 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953F352028BF7D7700CC9F49 /* ForgetPasswordViewController.swift */; };
+		95D9CFE528C0B059008BAE00 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9CFE428C0B059008BAE00 /* HomeCollectionViewCell.swift */; };
+		95D9CFE728C0B2EE008BAE00 /* collectiondata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9CFE628C0B2EE008BAE00 /* collectiondata.swift */; };
+		95F031BC28BE3D260057E257 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F031BB28BE3D250057E257 /* signupViewController.swift */; };
+		95F1F36128B8DC1700C554AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1F36028B8DC1700C554AC /* AppDelegate.swift */; };
+		95F1F36328B8DC1700C554AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1F36228B8DC1700C554AC /* SceneDelegate.swift */; };
+		95F1F36528B8DC1700C554AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1F36428B8DC1700C554AC /* ViewController.swift */; };
+		95F1F36828B8DC1700C554AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F1F36628B8DC1700C554AC /* Main.storyboard */; };
+		95F1F36A28B8DC2500C554AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F1F36928B8DC2500C554AC /* Assets.xcassets */; };
+		95F1F36D28B8DC2500C554AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F1F36B28B8DC2500C554AC /* LaunchScreen.storyboard */; };
+		95F1F37828B8DC2700C554AC /* kuppaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1F37728B8DC2700C554AC /* kuppaTests.swift */; };
+		95F1F38228B8DC2700C554AC /* kuppaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1F38128B8DC2700C554AC /* kuppaUITests.swift */; };
+		95F1F38428B8DC2700C554AC /* kuppaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1F38328B8DC2700C554AC /* kuppaUITestsLaunchTests.swift */; };
+		95F1F39328BCB7F400C554AC /* onboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1F39228BCB7F400C554AC /* onboardingViewController.swift */; };
+		95F1F39528BCB8CB00C554AC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1F39428BCB8CA00C554AC /* CollectionViewCell.swift */; };
+		95F1F39728BCBBEE00C554AC /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1F39628BCBBEE00C554AC /* data.swift */; };
+		F39998F5E31AE860D2DC6FDD /* Pods_kuppa_kuppaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234C2D292171CCE15D1189AA /* Pods_kuppa_kuppaUITests.framework */; };
+		FCF743125A30A0920EE08B95 /* Pods_kuppaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC0950AB91DA31622535F92 /* Pods_kuppaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95F1F37428B8DC2700C554AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F1F35528B8DC1600C554AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F1F35C28B8DC1600C554AC;
+			remoteInfo = kuppa;
+		};
+		95F1F37E28B8DC2700C554AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F1F35528B8DC1600C554AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F1F35C28B8DC1600C554AC;
+			remoteInfo = kuppa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046EFCFC878598082C4F91F9 /* Pods-kuppaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuppaTests.debug.xcconfig"; path = "Target Support Files/Pods-kuppaTests/Pods-kuppaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		234C2D292171CCE15D1189AA /* Pods_kuppa_kuppaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kuppa_kuppaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		948D907229FE19F59B12134F /* Pods-kuppaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuppaTests.release.xcconfig"; path = "Target Support Files/Pods-kuppaTests/Pods-kuppaTests.release.xcconfig"; sourceTree = "<group>"; };
+		953F351A28BF605000CC9F49 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		953F351C28BF6FAA00CC9F49 /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		953F351E28BF75FB00CC9F49 /* CongratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
+		953F352028BF7D7700CC9F49 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		95D9CFE428C0B059008BAE00 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		95D9CFE628C0B2EE008BAE00 /* collectiondata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectiondata.swift; sourceTree = "<group>"; };
+		95F031BB28BE3D250057E257 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		95F1F35D28B8DC1700C554AC /* kuppa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuppa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F1F36028B8DC1700C554AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95F1F36228B8DC1700C554AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95F1F36428B8DC1700C554AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95F1F36728B8DC1700C554AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95F1F36928B8DC2500C554AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F1F36C28B8DC2500C554AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95F1F36E28B8DC2500C554AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F1F37328B8DC2700C554AC /* kuppaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kuppaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F1F37728B8DC2700C554AC /* kuppaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kuppaTests.swift; sourceTree = "<group>"; };
+		95F1F37D28B8DC2700C554AC /* kuppaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kuppaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F1F38128B8DC2700C554AC /* kuppaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kuppaUITests.swift; sourceTree = "<group>"; };
+		95F1F38328B8DC2700C554AC /* kuppaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kuppaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95F1F39228BCB7F400C554AC /* onboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingViewController.swift; sourceTree = "<group>"; };
+		95F1F39428BCB8CA00C554AC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		95F1F39628BCBBEE00C554AC /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		BDF782B7BF13AE18BE91AE55 /* Pods-kuppa-kuppaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuppa-kuppaUITests.debug.xcconfig"; path = "Target Support Files/Pods-kuppa-kuppaUITests/Pods-kuppa-kuppaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEEB0C401465CE77B1D03C78 /* Pods-kuppa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuppa.release.xcconfig"; path = "Target Support Files/Pods-kuppa/Pods-kuppa.release.xcconfig"; sourceTree = "<group>"; };
+		DBC0950AB91DA31622535F92 /* Pods_kuppaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kuppaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC739CB8FF0C86B905F8BF6 /* Pods-kuppa-kuppaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuppa-kuppaUITests.release.xcconfig"; path = "Target Support Files/Pods-kuppa-kuppaUITests/Pods-kuppa-kuppaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDFA47228D36893FF3D50EA3 /* Pods-kuppa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuppa.debug.xcconfig"; path = "Target Support Files/Pods-kuppa/Pods-kuppa.debug.xcconfig"; sourceTree = "<group>"; };
+		E3FACD2A13ACB72D9B76D125 /* Pods_kuppa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kuppa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F1F35A28B8DC1600C554AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F8455B2110910CA4C5E128 /* Pods_kuppa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F1F37028B8DC2700C554AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF743125A30A0920EE08B95 /* Pods_kuppaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F1F37A28B8DC2700C554AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39998F5E31AE860D2DC6FDD /* Pods_kuppa_kuppaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761F79E3084891C7415995E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDFA47228D36893FF3D50EA3 /* Pods-kuppa.debug.xcconfig */,
+				CEEB0C401465CE77B1D03C78 /* Pods-kuppa.release.xcconfig */,
+				BDF782B7BF13AE18BE91AE55 /* Pods-kuppa-kuppaUITests.debug.xcconfig */,
+				DDC739CB8FF0C86B905F8BF6 /* Pods-kuppa-kuppaUITests.release.xcconfig */,
+				046EFCFC878598082C4F91F9 /* Pods-kuppaTests.debug.xcconfig */,
+				948D907229FE19F59B12134F /* Pods-kuppaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95F1F35428B8DC1600C554AC = {
+			isa = PBXGroup;
+			children = (
+				95F1F35F28B8DC1700C554AC /* kuppa */,
+				95F1F37628B8DC2700C554AC /* kuppaTests */,
+				95F1F38028B8DC2700C554AC /* kuppaUITests */,
+				95F1F35E28B8DC1700C554AC /* Products */,
+				761F79E3084891C7415995E3 /* Pods */,
+				A2FD60037034877CA5ED3163 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95F1F35E28B8DC1700C554AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F1F35D28B8DC1700C554AC /* kuppa.app */,
+				95F1F37328B8DC2700C554AC /* kuppaTests.xctest */,
+				95F1F37D28B8DC2700C554AC /* kuppaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F1F35F28B8DC1700C554AC /* kuppa */ = {
+			isa = PBXGroup;
+			children = (
+				95F1F39128BCB7BE00C554AC /* view */,
+				95F1F39028BCB63600C554AC /* model */,
+				95F1F36028B8DC1700C554AC /* AppDelegate.swift */,
+				95F1F36228B8DC1700C554AC /* SceneDelegate.swift */,
+				95F1F36628B8DC1700C554AC /* Main.storyboard */,
+				95D9CFE428C0B059008BAE00 /* HomeCollectionViewCell.swift */,
+				95F1F36928B8DC2500C554AC /* Assets.xcassets */,
+				95F1F36B28B8DC2500C554AC /* LaunchScreen.storyboard */,
+				95F1F36E28B8DC2500C554AC /* Info.plist */,
+			);
+			path = kuppa;
+			sourceTree = "<group>";
+		};
+		95F1F37628B8DC2700C554AC /* kuppaTests */ = {
+			isa = PBXGroup;
+			children = (
+				95F1F37728B8DC2700C554AC /* kuppaTests.swift */,
+			);
+			path = kuppaTests;
+			sourceTree = "<group>";
+		};
+		95F1F38028B8DC2700C554AC /* kuppaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95F1F38128B8DC2700C554AC /* kuppaUITests.swift */,
+				95F1F38328B8DC2700C554AC /* kuppaUITestsLaunchTests.swift */,
+			);
+			path = kuppaUITests;
+			sourceTree = "<group>";
+		};
+		95F1F39028BCB63600C554AC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				95F1F39628BCBBEE00C554AC /* data.swift */,
+				95D9CFE628C0B2EE008BAE00 /* collectiondata.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		95F1F39128BCB7BE00C554AC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				95F1F39228BCB7F400C554AC /* onboardingViewController.swift */,
+				95F1F39428BCB8CA00C554AC /* CollectionViewCell.swift */,
+				95F031BB28BE3D250057E257 /* signupViewController.swift */,
+				953F351A28BF605000CC9F49 /* HomeViewController.swift */,
+				95F1F36428B8DC1700C554AC /* ViewController.swift */,
+				953F351E28BF75FB00CC9F49 /* CongratsViewController.swift */,
+				953F351C28BF6FAA00CC9F49 /* CodeViewController.swift */,
+				953F352028BF7D7700CC9F49 /* ForgetPasswordViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A2FD60037034877CA5ED3163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3FACD2A13ACB72D9B76D125 /* Pods_kuppa.framework */,
+				234C2D292171CCE15D1189AA /* Pods_kuppa_kuppaUITests.framework */,
+				DBC0950AB91DA31622535F92 /* Pods_kuppaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F1F35C28B8DC1600C554AC /* kuppa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F1F38728B8DC2700C554AC /* Build configuration list for PBXNativeTarget "kuppa" */;
+			buildPhases = (
+				D74ECB84971DDBCE791D0644 /* [CP] Check Pods Manifest.lock */,
+				95F1F35928B8DC1600C554AC /* Sources */,
+				95F1F35A28B8DC1600C554AC /* Frameworks */,
+				95F1F35B28B8DC1600C554AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kuppa;
+			productName = kuppa;
+			productReference = 95F1F35D28B8DC1700C554AC /* kuppa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95F1F37228B8DC2700C554AC /* kuppaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F1F38A28B8DC2700C554AC /* Build configuration list for PBXNativeTarget "kuppaTests" */;
+			buildPhases = (
+				EDC71C4193B46C138BC04FDA /* [CP] Check Pods Manifest.lock */,
+				95F1F36F28B8DC2700C554AC /* Sources */,
+				95F1F37028B8DC2700C554AC /* Frameworks */,
+				95F1F37128B8DC2700C554AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F1F37528B8DC2700C554AC /* PBXTargetDependency */,
+			);
+			name = kuppaTests;
+			productName = kuppaTests;
+			productReference = 95F1F37328B8DC2700C554AC /* kuppaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95F1F37C28B8DC2700C554AC /* kuppaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F1F38D28B8DC2700C554AC /* Build configuration list for PBXNativeTarget "kuppaUITests" */;
+			buildPhases = (
+				CD1D33B62430C5AF7B378A9C /* [CP] Check Pods Manifest.lock */,
+				95F1F37928B8DC2700C554AC /* Sources */,
+				95F1F37A28B8DC2700C554AC /* Frameworks */,
+				95F1F37B28B8DC2700C554AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F1F37F28B8DC2700C554AC /* PBXTargetDependency */,
+			);
+			name = kuppaUITests;
+			productName = kuppaUITests;
+			productReference = 95F1F37D28B8DC2700C554AC /* kuppaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F1F35528B8DC1600C554AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					95F1F35C28B8DC1600C554AC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					95F1F37228B8DC2700C554AC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 95F1F35C28B8DC1600C554AC;
+					};
+					95F1F37C28B8DC2700C554AC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 95F1F35C28B8DC1600C554AC;
+					};
+				};
+			};
+			buildConfigurationList = 95F1F35828B8DC1600C554AC /* Build configuration list for PBXProject "kuppa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95F1F35428B8DC1600C554AC;
+			productRefGroup = 95F1F35E28B8DC1700C554AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F1F35C28B8DC1600C554AC /* kuppa */,
+				95F1F37228B8DC2700C554AC /* kuppaTests */,
+				95F1F37C28B8DC2700C554AC /* kuppaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F1F35B28B8DC1600C554AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F1F36D28B8DC2500C554AC /* LaunchScreen.storyboard in Resources */,
+				95F1F36A28B8DC2500C554AC /* Assets.xcassets in Resources */,
+				95F1F36828B8DC1700C554AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F1F37128B8DC2700C554AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F1F37B28B8DC2700C554AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD1D33B62430C5AF7B378A9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kuppa-kuppaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74ECB84971DDBCE791D0644 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kuppa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC71C4193B46C138BC04FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kuppaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F1F35928B8DC1600C554AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953F352128BF7D7700CC9F49 /* ForgetPasswordViewController.swift in Sources */,
+				95F1F39528BCB8CB00C554AC /* CollectionViewCell.swift in Sources */,
+				95F1F39728BCBBEE00C554AC /* data.swift in Sources */,
+				95F1F36528B8DC1700C554AC /* ViewController.swift in Sources */,
+				953F351B28BF605100CC9F49 /* HomeViewController.swift in Sources */,
+				95F1F36128B8DC1700C554AC /* AppDelegate.swift in Sources */,
+				953F351F28BF75FC00CC9F49 /* CongratsViewController.swift in Sources */,
+				95F1F36328B8DC1700C554AC /* SceneDelegate.swift in Sources */,
+				953F351D28BF6FAA00CC9F49 /* CodeViewController.swift in Sources */,
+				95F031BC28BE3D260057E257 /* signupViewController.swift in Sources */,
+				95F1F39328BCB7F400C554AC /* onboardingViewController.swift in Sources */,
+				95D9CFE728C0B2EE008BAE00 /* collectiondata.swift in Sources */,
+				95D9CFE528C0B059008BAE00 /* HomeCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F1F36F28B8DC2700C554AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F1F37828B8DC2700C554AC /* kuppaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F1F37928B8DC2700C554AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F1F38428B8DC2700C554AC /* kuppaUITestsLaunchTests.swift in Sources */,
+				95F1F38228B8DC2700C554AC /* kuppaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95F1F37528B8DC2700C554AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F1F35C28B8DC1600C554AC /* kuppa */;
+			targetProxy = 95F1F37428B8DC2700C554AC /* PBXContainerItemProxy */;
+		};
+		95F1F37F28B8DC2700C554AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F1F35C28B8DC1600C554AC /* kuppa */;
+			targetProxy = 95F1F37E28B8DC2700C554AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95F1F36628B8DC1700C554AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F1F36728B8DC1700C554AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95F1F36B28B8DC2500C554AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F1F36C28B8DC2500C554AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F1F38528B8DC2700C554AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95F1F38628B8DC2700C554AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F1F38828B8DC2700C554AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFA47228D36893FF3D50EA3 /* Pods-kuppa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kuppa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.kuppa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F1F38928B8DC2700C554AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEB0C401465CE77B1D03C78 /* Pods-kuppa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kuppa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.kuppa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95F1F38B28B8DC2700C554AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046EFCFC878598082C4F91F9 /* Pods-kuppaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.kuppaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kuppa.app/kuppa";
+			};
+			name = Debug;
+		};
+		95F1F38C28B8DC2700C554AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948D907229FE19F59B12134F /* Pods-kuppaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.kuppaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kuppa.app/kuppa";
+			};
+			name = Release;
+		};
+		95F1F38E28B8DC2700C554AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF782B7BF13AE18BE91AE55 /* Pods-kuppa-kuppaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.kuppaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kuppa;
+			};
+			name = Debug;
+		};
+		95F1F38F28B8DC2700C554AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC739CB8FF0C86B905F8BF6 /* Pods-kuppa-kuppaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.kuppaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kuppa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F1F35828B8DC1600C554AC /* Build configuration list for PBXProject "kuppa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F1F38528B8DC2700C554AC /* Debug */,
+				95F1F38628B8DC2700C554AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F1F38728B8DC2700C554AC /* Build configuration list for PBXNativeTarget "kuppa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F1F38828B8DC2700C554AC /* Debug */,
+				95F1F38928B8DC2700C554AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F1F38A28B8DC2700C554AC /* Build configuration list for PBXNativeTarget "kuppaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F1F38B28B8DC2700C554AC /* Debug */,
+				95F1F38C28B8DC2700C554AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F1F38D28B8DC2700C554AC /* Build configuration list for PBXNativeTarget "kuppaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F1F38E28B8DC2700C554AC /* Debug */,
+				95F1F38F28B8DC2700C554AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95F1F35528B8DC1600C554AC /* Project object */;
+}
